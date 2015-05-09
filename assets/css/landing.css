@@ -1,0 +1,89 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+.navbar a {
+	color: #f8f8f8;
+}
+.navbar .btn {
+	color: #333;
+}
+.page {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.cloud {
+	padding: 0 20px;
+}
+.cloud-logo {
+	color: #f8f8f8;
+	text-align: center;
+}
+.cloud-logo a {
+	color: #f8f8f8;
+}
+.cloud-logo a:hover,
+.cloud-logo a:active {
+	text-decoration: none;
+}
+.cloud-logo span {
+	display: block;
+}
+.login-btn {
+	max-width: 300px;
+	margin: 30px auto 0 auto;
+}
+.login-form {
+	text-align: center;
+	margin-top: 30px;
+}
+.navbar-about {
+	margin-top: 10px;
+}
+.navbar-about .about-us {
+	font-weight: bold;
+	position: relative;
+	top: -3px;
+}
+.navbar-about .glyphicon {
+	font-size: 20px;
+}
+.alert {
+	position: fixed;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 500px;
+	margin: 30px auto;
+	text-align: center;
+}
+
+/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+
+body {
+	background: -webkit-linear-gradient(#37474f, #263238); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#37474f, #263238); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#37474f, #263238); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#37474f, #263238); /* Standard syntax */
+}
+.cloud-logo .glyphicon {
+	font-size: 96px;
+	line-height: 80px;
+}
+.logo-text {
+	font-size: 40px;
+	line-height: 40px;
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 768px) {
+.cloud-logo .glyphicon {
+	font-size: 144px;
+	line-height: 120px;
+}
+.logo-text {
+	font-size: 60px;
+	line-height: 60px;
+}
+}

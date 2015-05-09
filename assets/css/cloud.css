@@ -1,0 +1,155 @@
+.navbar {
+	margin-bottom: 10px;
+}
+.navbar-text {
+	padding-left: 15px;
+}
+.navbar-inverse {
+	background: #37474f;
+	border-color: #37474f;
+}
+.navbar-inverse .navbar-brand {
+  color: #fff;
+}
+.navbar-inverse .navbar-text {
+  color: #ddd;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: #fff;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #fff;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: #263238;
+}
+.navbar-inverse .navbar-toggle {
+  border-color: #aaa;
+}
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+  background-color: #263238;
+}
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+  background-color: #263238;
+}
+.navbar-brand .glyphicon {
+	font-size: 30px;
+	float: left;
+	margin-right: 10px;
+	top: -3px;
+}
+
+.breadcrumb li a { color: #37474f;}
+.folder-content:focus {
+	background: #000;
+}
+.breadcrumb button {
+}
+#table-contents {
+	table-layout:fixed;
+	width:100%;
+}
+.folder-content td {
+	height: 50px;
+	vertical-align: middle !important;
+}
+.column-icon {
+	width: 35px;
+}
+.column-name {
+	min-width: 150px;
+	position: relative;
+	left: -35px;
+}
+.column-actions {
+	width: 30px;
+}
+.folder-content .glyphicon {
+	font-size: 20px;
+}
+.column-size {
+	width: 80px;
+	min-width: 80px;
+}
+.column-date {
+	width: 120px;
+	min-width: 120px;
+}
+.content-name {
+	overflow: hidden;
+}
+.content-actions a {
+	padding: 0;
+}
+.folder-content:hover .content-actions a {
+	display: block !important;
+}
+.content-actions .glyphicon {
+	font-size: 15px;
+	color: #37474f;
+}
+.folder-header th {
+	color: #37474f;
+	font-size: 17px;
+}
+.folder-header a {
+	color: #37474f;
+}
+.folder-header .glyphicon {
+	font-size: 10px;
+}
+.alert {
+	padding: 5px 30px 5px 10px;
+}
+.alert-fixed-top {
+	position: fixed;
+	top: 9px;
+	z-index: 9999;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+.file-icon {
+	font-size: 150px;
+	text-align: center;
+}
+#add-folder-form {
+	display: none;
+}
+
+@media screen and (max-width: 768px) {
+	.visible-xs-inline {
+		display: inline-block; !important
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.visible-xs-inline {
+		display: none; !important
+	}
+}
